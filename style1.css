@@ -1,0 +1,129 @@
+.bg{
+    background-image: url(kota.jpeg);
+    background-size: 100% 100%;
+}
+#ico1{
+    margin-top: -10px;
+}
+
+.btn{
+    margin: 15px;
+}
+
+.nav-wrapper ul li :hover{
+    background: grey;
+}
+
+#logo{
+    height: 180px;
+    width: 180px;
+}
+
+#inde{
+    height: 300px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+#skill{
+    height: 300px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+#isi{
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 0 50px 10px 50px;
+    border: 2px solid gray;
+    font-size: 15px;
+}
+
+#motto{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 17px;
+}
+#col2{
+    width: 300px;
+}
+
+#logof{
+    height: 40px;
+    width: 30px;
+}
+#collog{
+   width: 40px;
+}
+#row3{
+    margin-top: -10px;
+    margin-bottom: -10px;
+  
+}
+
+#row1{
+    margin-left: 100px;
+}
+
+.bglog{
+    background-image: url(login.jpeg);
+    background-size: 100% 100%;
+    height: 655px;
+}
+
+#loginf{
+    width: 400px;
+
+}
+
+.bglog{
+    padding-top: 150px;
+}
+
+#logor{
+    height: 50px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+#regist{
+  margin-top: 0;
+}
+
+#regs{
+    color: white;
+    font-size: 50px;
+}
+#regs2{
+    color: white;
+    font-size: 30px;
+}
+
+.bgplat{
+    background-image: url(platform.jpeg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+#footplat{
+    margin-top: 54px;
+}
+
+.bgreg2{
+    background-image: url(profil.jpeg);
+    background-size: 100% 100%;
+    height: 657px;
+}
+
+#cardcon{
+    width: 400px;
+}
+
+
+
+#border{
+    height: 50px;
+    width: 650px;
+}

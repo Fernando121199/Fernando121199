@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>THE E.Y.E</title>
+    <link rel="shortcut icon" href="Logo-E.Y.png">
+</head>
+<body>
+    <nav class="nav-wraper black">
+<div class="row">
+    <div class="col s1">
+        <img src="Logo-E.Y.png" alt="" id="logor"></div>
+        <div class="col s1">
+<div class="white-text"><h3 id="regist">Registration</h3></div>
+</div>
+    </div>
+</nav>
+<div class="bgreg">
+
+    <div class="row">
+        <div class="col s4 l4">
+    <form action="">
+        <div class="input-field">
+            <input type="number" id="nik">
+            <label for="nik">NIK</label>
+        </div>
+        <div class="input-field">
+            
+            <select class="browser-default">
+<option value="" disabled selected> Member type</option>
+<option value="1">Civilian</option>
+<option value="2">Guild Member</option>
+            </select>
+        </div>
+        <div class="input-field">
+            <select class="browser-default">
+                <option value="" disabled selected> Join Period</option>
+                <option value="1">1 Month</option>
+                <option value="2">3 Month</option>
+                <option value="3">Half Year</option>
+                <option value="4">One Year</option>
+                            </select>
+        </div>
+        <div class="input-field">
+            <input type="text" id="profession">
+            <label for="profesion">Profesion</label>
+        </div>
+        <div class="input-field">
+            <textarea  id="skillset" class="materialize-textarea"></textarea>
+                <label for="skillset">Skillset</label>
+        </div>
+
+        </form>
+    </div>
+    <div class="col s4 l4">
+        <form action="">
+            <div class="input-field">
+                <textarea  id="addres" class="materialize-textarea"></textarea>
+                    <label for="addres">Addres</label>
+            </div>
+            <div class="input-field">
+             <input type="text" id="date" class="datepicker">
+             <label for="date">Birth Date</label>
+            </div>
+            <div class="input-field">
+                <input type="text" id="nama">
+                <label for="nama">Full Name</label>
+            </div>
+            <div class="input-field">
+                <input type="text" id="code">
+                <label for="code">Code Name</label>
+            </div>
+            
+            </form>
+    </div>
+    </div>
+    <div class="container">
+    <a href="regis2.html" class="btn black" id="Regis">
+        <span>Register</span>
+        <i class="material-icons left">add</i>
+    </a>
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/js/materialize.js"></script>
+<script>
+ $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+       
+</script>
+
+</body>
+</html>
